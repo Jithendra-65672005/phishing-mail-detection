@@ -1,0 +1,55 @@
+1. Sample Email:
+Subject: Your Account Will Be Suspended Immediately
+From: support@amaz0n-security.com
+Body:
+Dear Customer,
+We noticed suspicious activity on your Amazon account. For your protection, we have temporarily locked your account. 
+Please click the link below to verify your identity:
+https://amaz0n.verify-user-security.com/login
+Failure to do so will result in permanent account suspension.
+Thank you,
+Amazon Support
+
+
+2. Sender's Email Address Analysis:
+Email: support@amaz0n-security.com
+Issue: Spoofed domain; "amaz0n" instead of "amazon".
+
+
+3. Email Headers
+Use a tool like Google Header Analyzer
+Look for:
+Mismatch between Return-Path and From address
+Unusual IP origin (e.g., not belonging to Amazon's range)
+
+
+4. Suspicious Links/Attachments
+Link Text: https://amaz0n.verify-user-security.com/login
+Real URL: Not actually amazon.com — looks suspicious.
+Red Flag: Domain designed to look legit but is fake.
+
+
+5. Urgent or Threatening Language
+Phrases like:
+"Your account will be suspended immediately"
+"Failure to do so will result in permanent suspension"
+
+
+6. Mismatched URLs
+Hovering over the link shows a different URL than what’s written.
+Example: Written URL appears official but actually redirects to phishing site.
+
+
+7.Spelling and Grammar Errors
+Minor grammatical oddities:
+“click the link below” not capitalized
+"verify-user-security" — unprofessional phrasing
+
+8. Summary of Phishing Traits
+Trait	Present?	Notes
+Spoofed Email	:	Misspelled domain
+Suspicious Header Info	:  Likely mismatched return-path
+Malicious Link	:	URL legitimate brand
+Urgent Language	:	Threat of account suspension
+Mismatched URL	:	Hover shows fake domain
+Spelling/Grammar Errors..
